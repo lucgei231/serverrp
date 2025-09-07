@@ -21,7 +21,7 @@ if errorlevel 1 (
     git remote add origin %REPO_URL%
 )
 
-:: Push to main branch
-git push origin main
-
+git remote add origin https://github.com/lucgei231/serverrp.git
+git branch -M main
+git push -u origin main
 endlocal
