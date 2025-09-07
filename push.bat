@@ -1,6 +1,6 @@
 @echo off
 setlocal
-
+git remote set-url origin https://github.com/lucgei231/serverrp.git
 :: Set your remote repository URL
 set "REPO_URL=https://github.com/lucgei231/serverrp.git"
 
