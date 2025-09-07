@@ -2,7 +2,7 @@
 setlocal
 
 :: Set your remote repository URL
-set "REPO_URL=https://github.com/lucgei231/serverrp"
+set "REPO_URL=https://github.com/lucgei231/serverrp.git"
 
 :: Initialize Git repo if not already
 if not exist ".git" (
